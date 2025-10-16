@@ -19,8 +19,8 @@ header{
     width: 100%;
     z-index: 1;
     background-color: rgb(33, 20, 20);
-    /* border-bottom: 1px solid rgb(165, 28, 28); */
     color: rgba(255, 255, 255, 0.945);
+    height: 100px;
 }
 
 
