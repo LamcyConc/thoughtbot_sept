@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 20, 20);
+    font-family: Cosmica (woff2), "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(33, 20, 20);
+    /* border-bottom: 1px solid rgb(165, 28, 28); */
+    color: rgba(255, 255, 255, 0.945);
+}
+
+
+li{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+.bo1{
+    margin-left: 20%;
+}
+
+.bo2{
+    margin-left: 28%;
+}
+.bo3{
+    margin-left: 39%;
+    color: gold;
+}
+
+.bo4{
+    margin-left: 45%;
+}
+/* button .bo1:hover{
+    background-color: gold;
+    color: black; */
+
+.li1{
+    margin-top: -30px;
+}
+
+.li2{
+    margin-top: -23px;
+}
+
+.li3{
+    margin-top: -23px;
+}
+
+.li4{
+    margin-top: -23px;
+}
+
+button{
+    margin-left: 80%;
+    padding: 10px 45px;
+    border-radius: 100px;
+    font-size: 21px;
+    background-color:rgb(224, 49, 49);
+    color: white;
+}
+
+.btn{
+    margin-top: 1px%;
+    margin-bottom: 0px;
+}
+
+button:hover{
+    outline: 3px solid rgb(224, 49, 49);
+}
+
+.sec{
+    margin-left: 150px;
+    margin-top: 40px;
+    padding: 20px 50px;
+    font-family: PPMor, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+}
+h1{
+    font-size: 48px;
+    margin-top: 5%;
+    margin-left: 0px;
+}
+p{
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.tho{
+    text-decoration: underline; *
+    color: rgba(199, 172, 18, 0.753);
+}
+.tho:hover{
+    color: gold;
+    text-decoration: none;
+}
+
+.sec1{
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 20px 50px;
+    font-family: Cosmica, Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+}
+hr{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 67%;
+    color: rgba(255, 255, 255, 0.247);
+}
+
+/* .list1 .lt1:hover{
+    background-color: gold;
+    background: content-box;
+} */
+.list1{
+    margin-left: 60px;
+    color: rgba(255, 255, 255, 0.945);
+}
+.lt1{
+    margin-left: 0px;
+}
+.lt2{
+    margin-left: 190px;
+    margin-top: -46px;
+}
+.lt3{
+    margin-left: 350px;
+    margin-top: -46px;
+}
+
+.lt4{
+    margin-left: 570px;
+    margin-top: -46px;
+}
+
+.lt5{
+    margin-left: 680px;
+    margin-top: -24px;
+}
+
+.lt5:hover{
+    text-decoration: none;
+    color: gold;
+}
+h2{
+    font-size: 31px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+h2:hover{
+    color: gold;
+}
+
+.small{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+form{
+    height: 280px;
+    width: 67%;
+    border: 1px solid rgb(46, 28, 28);
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: rgb(46, 28, 28);
+}
+.for{
+    color: rgba(255, 255, 255, 0.945);
+    font-family: Cosmica, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+input{
+    width: 75%;
+    background-color: rgb(33, 20, 20);
+    color: white;
+    border-color: rgb(33, 20, 20);
+    height: 40px;
+    border-bottom: 1px solid rgb(224, 49, 49);
+}
+.sub{
+margin-left: 2px;
+}
+.smallie{
+    font-size: 19px;
+    margin-left: 230px;
+    margin-top: 20px;
+    font-family: Cosmica, Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.062);
+}
+.pg{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.pg:hover{
+    color: gold;
+}
+.lnk:hover{
+    color: gold;
+}
+
+.numb{
+    font-size: 17px;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+footer{
+    padding: 40px 100px;
+}
+.sade{
+    flex-basis: 50%;
+}
+.footer-group{
+    flex-basis: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer-links>a{
+    color: white;
+}
+
+.footer-row1{
+    display: flex;
+}
