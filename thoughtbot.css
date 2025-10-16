@@ -11,62 +11,35 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.945);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 650;
 }
-header{
-    padding: 2px;
+
+.li a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     z-index: 1;
     background-color: rgb(33, 20, 20);
-    color: rgba(255, 255, 255, 0.945);
-    height: 100px;
+    height: 90px;
+    padding: 0px 50px;
 }
 
-
-li{
-    font-size: 20px;
-    margin-left: 50px;
+.li{
+    display: flex;
+    gap: 50px;
 }
 
-
-.bo1{
-    margin-left: 20%;
-}
-
-.bo2{
-    margin-left: 28%;
-}
-.bo3{
-    margin-left: 39%;
-    color: gold;
-}
-
-.bo4{
-    margin-left: 45%;
-}
-/* button .bo1:hover{
-    background-color: gold;
-    color: black; */
-
-.li1{
-    margin-top: -30px;
-}
-
-.li2{
-    margin-top: -23px;
-}
-
-.li3{
-    margin-top: -23px;
-}
-
-.li4{
-    margin-top: -23px;
-}
 
 button{
-    margin-left: 80%;
     padding: 10px 45px;
     border-radius: 100px;
     font-size: 21px;
@@ -74,10 +47,6 @@ button{
     color: white;
 }
 
-.btn{
-    margin-top: 1px%;
-    margin-bottom: 0px;
-}
 
 button:hover{
     outline: 3px solid rgb(224, 49, 49);
@@ -101,8 +70,9 @@ p{
 }
 
 .tho{
-    text-decoration: underline; *
-    color: rgba(199, 172, 18, 0.753);
+    text-decoration: underline;
+    color: rgb(252, 237, 155);
+    opacity: ;
 }
 .tho:hover{
     color: gold;
@@ -123,40 +93,46 @@ hr{
     color: rgba(255, 255, 255, 0.247);
 }
 
-/* .list1 .lt1:hover{
-    background-color: gold;
-    background: content-box;
-} */
 .list1{
-    margin-left: 60px;
-    color: rgba(255, 255, 255, 0.945);
-}
-.lt1{
-    margin-left: 0px;
-}
-.lt2{
-    margin-left: 190px;
-    margin-top: -46px;
-}
-.lt3{
-    margin-left: 350px;
-    margin-top: -46px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
 }
 
-.lt4{
-    margin-left: 570px;
-    margin-top: -46px;
+.list1>a .b2{
+    padding: 10px 22px;
+    /* border-radius: 100px; */
+    font-size: 21px;
+    background-color: transparent;
+    color:#faf9f9;
+    outline: 0px;
+    border: 1px solid #dab1b177;
+}
+.list1>a>.b2:hover{
+    outline: 0;
+    background-color: #ffe7a3;
+    color: #211414;
+}
+
+.list1>a>.b1{
+    background-color: #ffc726;
+    color: #211414;
+}
+.b1:hover{
+    outline: none;
 }
 
 .lt5{
-    margin-left: 680px;
-    margin-top: -24px;
+    text-decoration: underline;
 }
 
 .lt5:hover{
     text-decoration: none;
-    color: gold;
+    color: #ffc726;
 }
+
+
+
 h2{
     font-size: 31px;
     margin-left: 0px;
@@ -224,10 +200,17 @@ margin-left: 2px;
 
 footer{
     padding: 40px 100px;
+    height: 70vh;
+    border-top: 1px solid rgba(255, 255, 255, 0.089);
+}
+.footer-row1{
+    display: flex;
 }
 .sade{
     flex-basis: 50%;
 }
+
+
 .footer-group{
     flex-basis: 50%;
     display: flex;
@@ -237,12 +220,31 @@ footer{
 .footer-links{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .footer-links>a{
-    color: white;
+    color: rgba(255, 255, 255, 0.945);
+    text-decoration: underline;
 }
 
-.footer-row1{
+.footer-links>a:hover{
+    text-decoration: none;
+    color: #ffc726;
+}
+
+.inc{
     display: flex;
+    justify-content: space-between;
+}
+
+.inc{
+    display: flex;
+    flex-basis: 50;
+    margin-top: 180px;
+}
+
+.inc2{
+    display: flex;
+    /* margin-bottom: 10px; */
 }
